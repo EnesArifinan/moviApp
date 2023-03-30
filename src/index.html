@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>movieMania</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Lato", sans-serif;
+      }
+      .main-navBar {
+        background: #234145;
+        padding: 8px 16px;
+      }
+      .navBar {
+        display: inline-block;
+        /* width: calc(98% - 101px); yusufun değerleri */
+        width: calc(92% - 101px);
+        text-align: right;
+        font-family: "Robota", sans-serif;
+      }
+      .navBar-items {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .navBar-item {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      .navBar-logo {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .navBar-item a {
+        text-decoration: none;
+        color: #fff;
+      }
+      ul {
+        font-family: "Roboto", sans-serif;
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Navigater bar bölümümüz -->
+    <header class="main-navBar">
+      <i class="fa-solid fa-tv fa-2x" style="color: white"></i>
+      <a href="#" class="navBar-logo">movieMania</a>
+
+      <nav class="navBar">
+        <ul class="navBar-items">
+          <li class="navBar-item">
+            <a href="">filmler</a>
+          </li>
+          <li class="navBar-item">
+            <a href="">kitaplar</a>
+          </li>
+          <li class="navBar-item">
+            <a href="">diziler</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
