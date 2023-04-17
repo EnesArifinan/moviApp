@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial;
+  font-size: 17px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.topBar {
+  position: fixed;
+  padding: 0px 65px;
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topBar a {
+  display: flex;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  background-color: black;
+  text-decoration: dotted;
+  font-size: 25px;
+  transition: all 0.3s ease;
+}
+.topBar a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+/* #anamenu{
+    color: white;
+    background-color: #000;
+}
+#anamenu :hover{
+    background-color: #fff;
+}
+#sss{
+    color: white;
+}  */
+
+/* #anamenu{
+    padding-left: 50px;
+    color: white;
+}
+#sss{
+    padding-right: 50px;
+    color: white;
+} */
+
+.container {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.eleştiri {
+  display: flex;
+  padding: 100px;
+  display: inline-block; /* or inline-flex */
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.eleştiri h1 {
+  text-transform: capitalize;
+}
+.eleştiri:hover {
+  background-color: #000;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  margin: 30px;
+  color: white;
+}
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#myBtn:hover {
+  background-color: #ddd;
+  color: #000;
+}

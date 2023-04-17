@@ -68,7 +68,16 @@ body {
 }
 .pause {
   position: fixed;
+  padding: 5px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  right: 25px;
   font-size: 25px;
   bottom: 20px;
-  left: 20px;
+  text-transform: capitalize;
+  font-family: "Roboto Mono", monospace;
+}
+.pause:hover {
+  color: white;
+  background-color: black;
 }

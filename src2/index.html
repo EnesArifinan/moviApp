@@ -13,17 +13,30 @@
   </head>
   <body>
     <script src="index.js"></script>
-    <video
+    <!-- <video
       autoplay
       muted
       loop
       class="video"
-      id="vvv"
+      id="myVideo"
       src="video/myvideo.mp4"
       type="videoMp4"
     >
       Your browser does not support HTML:5
+    </video> -->
+
+    <video
+      id="videoo"
+      class="video"
+      src="video/myvideo.mp4"
+      autoplay
+      muted
+      loop
+      type="video/mp4"
+    >
+      your browser does not support HTML:5
     </video>
+    <button id="pause" class="pause">pause</button>
     <div>
       <nav class="topBar">
         <a class="top" href="#AnaMenu"
@@ -39,6 +52,6 @@
       </div>
       <div class="sss"></div>
     </div>
-    <button onclick="myFunction()" class="pause" id="pause">pause</button>
+    <!-- <button onclick="pauseVideo()" class="pause" id="pause">pausse</button> -->
   </body>
 </html>

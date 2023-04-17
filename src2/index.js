@@ -1,12 +1,8 @@
-const video = document.getElementById("vvv");
-const btn = document.getElementById("pause");
+document.addEventListener("DOMContentLoaded", function () {
+  const stop = document.getElementById("pause");
+  const video = document.getElementById("videoo");
 
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
+  function stopVideo() {
     video.pause();
-    btn.innerHTML = "Play";
   }
-}
+});
