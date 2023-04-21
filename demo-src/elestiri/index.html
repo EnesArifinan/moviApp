@@ -17,15 +17,28 @@
     <div class="container">
       <div class="pano1">
         <div class="info">
-          <input type="text" />
-          <input type="text" />
-          <input type="text" />
+          <input placeholder="eleştirilecek film adi" type="text" />
+          <input placeholder="konu başligi" type="text" />
+          <input placeholder="yazarın adı" type="text" />
+          <button>filmi bul artık</button>
         </div>
-        <div>
-          <img src="foto/0 - a war.png" alt="fotoraf" />
-          <button>Filmi Bul</button>
+        <div class="infoNew">
+          <img id="filmiBul" src="foto/0 - a war.png" alt="fotoğraf" />
         </div>
       </div>
+      <div class="pano2">
+        <p>filmin adi: {filmAdi}</p>
+        <p>film türü: {filmTürü}</p>
+        <p>İMDB: {imdb}</p>
+        <p>yönetmen: {yönetmen}</p>
+      </div>
+      <div class="pano3">
+        <img src="foto/move.png" alt="film afişi" />
+      </div>
+    </div>
+    <div class="container2">
+      <input type="text" placeholder="Eleştiri yaz..." />
+      <button>Gönder</button>
     </div>
   </body>
 </html>
