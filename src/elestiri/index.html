@@ -10,8 +10,8 @@
   <body>
     <div>
       <nav class="topBar">
-        <a href="#">menu</a>
-        <a href="#">SSS</a>
+        <a href="../index.html">menu</a>
+        <a href="../notfound.html">SSS</a>
       </nav>
     </div>
     <div class="container">
@@ -20,7 +20,7 @@
           <input placeholder="eleştirilecek film adi" type="text" />
           <input placeholder="konu başligi" type="text" />
           <input placeholder="yazarın adı" type="text" />
-          <button>filmi bul</button>
+          <button id="filmiBul">filmi bul</button>
         </div>
         <div class="infoNew">
           <img id="filmiBul" src="foto/0 - a war.png" alt="fotoğraf" />
@@ -45,7 +45,19 @@
         placeholder="Eleştiri yaz..."
       ></textarea>
       <!-- <input type="text" placeholder="Eleştiri yaz..." /> -->
-      <button>Gönder</button>
+      <button id="gonder">Gönder</button>
+      <script>
+        const filmiBul = document.querySelector("#filmiBul");
+        const gonder = document.querySelector("#gonder");
+
+        filmiBul.addEventListener("click", () => {
+          window.location.href = "../notfound.html";
+        });
+
+        gonder.addEventListener("click", () => {
+          window.location.href = "../notfound.html";
+        });
+      </script>
     </div>
   </body>
 </html>
