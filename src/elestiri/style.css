@@ -3,8 +3,7 @@
   text-transform: capitalize;
 }
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0;
 }
 .topBar {
   background-color: black;
@@ -17,6 +16,7 @@ body {
   color: white;
   text-transform: capitalize;
   text-decoration: dotted;
+  font-size: 25px;
 }
 .topBar a:hover {
   background-color: #ddd;
